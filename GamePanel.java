@@ -78,7 +78,6 @@ public class GamePanel extends JPanel implements ActionListener {
         
     }
 
-    // optional yPosition parameter
     public void drawScore(Graphics g) {
         g.setColor(new Color(248, 248, 243));
         g.setFont(new Font("Lora", Font.BOLD,24));
